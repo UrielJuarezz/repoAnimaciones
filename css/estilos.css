@@ -26,15 +26,6 @@ header, h2{
 
 
 
-.box:hover{
-    transform: scale(1.5);
-    
-    
-}
-
-img:hover{
-    animation: amanecer 2s;
-}
 
 @keyframes amanecer{
     0%{
@@ -170,7 +161,7 @@ img{
          "sidebar contenido ad"
          "galerias galerias galerias"
          "footer footer footer";
-         grid-template-columns: 1fr 4fr 1 fr;
+         grid-template-columns: 1fr 4fr 1fr;
          margin-bottom: 1.5em;
     }
     nav ul{
